@@ -1,0 +1,63 @@
+[2024-07-06T14:22:00.110] [INFO] default - Create producer Transport : peer 6664fa2416e8623689062ead
+[2024-07-06T14:22:00.291] [INFO] default - Create consumer Transport : peer 6664fa2416e8623689062ead
+[2024-07-06T14:22:00.351] [INFO] default - Join : [Member] 6664fa2416e8623689062ead!
+[2024-07-06T14:22:00.355] [WARN] default - request failed [TypeError: Cannot read properties of undefined (reading 'id')]
+[2024-07-06T14:22:01.044] [INFO] default - Create producer Transport : peer 6664f331f118f26749fc111a
+[2024-07-06T14:22:01.111] [INFO] default - Create consumer Transport : peer 6664f331f118f26749fc111a
+[2024-07-06T14:22:01.162] [INFO] default - Join : [Host] 6664f331f118f26749fc111a
+[2024-07-06T14:22:01.481] [INFO] default - Peer 6664fa2416e8623689062ead disconnected!
+[2024-07-06T14:22:01.482] [INFO] default - Member Exit : 6664fa2416e8623689062ead!
+[2024-07-06T14:22:01.484] [INFO] default - Peer 6664fa2416e8623689062ead closed
+[2024-07-06T14:22:01.686] [INFO] default - Connect producer Transport : peer 6664f331f118f26749fc111a
+[2024-07-06T14:22:02.482] [INFO] default - Produce : peer 6664f331f118f26749fc111a
+[2024-07-06T14:22:14.801] [INFO] default - Peer 6664f331f118f26749fc111a disconnected!
+[2024-07-06T14:22:14.801] [INFO] default - Host 6664f331f118f26749fc111a Exit
+[2024-07-06T14:22:14.803] [INFO] default - Peer 6664f331f118f26749fc111a closed
+[2024-07-06T14:22:14.803] [INFO] default - Room undefined closed.
+[2024-07-06T14:22:14.804] [INFO] default - room [6665af4b42830e3b82f73db8] closed!
+[2024-07-06T14:22:42.600] [INFO] default - Connection: chatId: 6665af4b42830e3b82f73db8, userToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjY0ZjMzMWYxMThmMjY3NDlmYzExMWEiLCJpYXQiOjE3MTk4NjkwMjl9.W2vVBDqEvumFyX_YBBQnWgVMXq6GKPDhY8t1IOUI_ws, peerId: 6664f331f118f26749fc111a
+[2024-07-06T14:22:42.618] [INFO] default - Create Room undefined
+[2024-07-06T14:22:42.641] [INFO] default - Room created, roomId = undefined
+[2024-07-06T14:22:42.923] [INFO] default - Create producer Transport : peer 6664f331f118f26749fc111a
+[2024-07-06T14:22:43.011] [INFO] default - Create consumer Transport : peer 6664f331f118f26749fc111a
+[2024-07-06T14:22:43.068] [INFO] default - Join : [Host] 6664f331f118f26749fc111a
+[2024-07-06T14:22:43.702] [INFO] default - Connect producer Transport : peer 6664f331f118f26749fc111a
+[2024-07-06T14:22:44.283] [INFO] default - Produce : peer 6664f331f118f26749fc111a
+[2024-07-06T14:22:46.007] [INFO] default - Connection: chatId: 6665af4b42830e3b82f73db8, userToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjY0ZmEyNDE2ZTg2MjM2ODkwNjJlYWQiLCJpYXQiOjE3MjAyNzMxNjV9.jVzD869wrXZbH1hR-dqnxv8YfxwrrtqfLVbqqIlqVM8, peerId: 6664fa2416e8623689062ead
+[2024-07-06T14:22:46.667] [INFO] default - Create producer Transport : peer 6664fa2416e8623689062ead
+[2024-07-06T14:22:46.741] [INFO] default - Create consumer Transport : peer 6664fa2416e8623689062ead
+[2024-07-06T14:22:46.775] [INFO] default - Join : [Member] 6664fa2416e8623689062ead!
+[2024-07-06T14:22:46.777] [INFO] default - create consumer of 6664f331f118f26749fc111a for 6664fa2416e8623689062ead
+[2024-07-06T14:22:47.811] [INFO] default - Connect consumer Transport : peer 6664fa2416e8623689062ead
+[2024-07-06T14:22:47.838] [INFO] default - Connect producer Transport : peer 6664fa2416e8623689062ead
+[2024-07-06T14:22:48.013] [INFO] default - Resume consumer : peer 6664fa2416e8623689062ead, consumer e21c33a2-4dc5-4569-bc10-9b310e25774b
+[2024-07-06T14:22:49.433] [INFO] default - Produce : peer 6664fa2416e8623689062ead
+[2024-07-06T14:22:49.436] [INFO] default - create consumer of 6664fa2416e8623689062ead for 6664f331f118f26749fc111a
+[2024-07-06T14:22:49.545] [INFO] default - Connect consumer Transport : peer 6664f331f118f26749fc111a
+[2024-07-06T14:22:49.657] [INFO] default - Resume consumer : peer 6664f331f118f26749fc111a, consumer fa4bb5a3-ad3e-4fdc-866d-d4bb9d176772
+[2024-07-06T14:22:56.928] [INFO] default - Produce : peer 6664fa2416e8623689062ead
+[2024-07-06T14:22:56.933] [INFO] default - create consumer of 6664fa2416e8623689062ead for 6664f331f118f26749fc111a
+[2024-07-06T14:22:57.129] [INFO] default - Resume consumer : peer 6664f331f118f26749fc111a, consumer f69953d4-11f6-4f6b-85d0-26d9b7e20f77
+[2024-07-06T14:22:57.441] [INFO] default - Pause consumer : peer 6664f331f118f26749fc111a, consumer f69953d4-11f6-4f6b-85d0-26d9b7e20f77
+[2024-07-06T14:22:57.633] [INFO] default - Resume consumer : peer 6664f331f118f26749fc111a, consumer f69953d4-11f6-4f6b-85d0-26d9b7e20f77
+[2024-07-06T14:22:59.161] [INFO] default - Pause consumer : peer 6664f331f118f26749fc111a, consumer f69953d4-11f6-4f6b-85d0-26d9b7e20f77
+[2024-07-06T14:22:59.227] [INFO] default - Resume consumer : peer 6664f331f118f26749fc111a, consumer f69953d4-11f6-4f6b-85d0-26d9b7e20f77
+[2024-07-06T14:22:59.228] [INFO] default - Produce : peer 6664f331f118f26749fc111a
+[2024-07-06T14:22:59.238] [INFO] default - create consumer of 6664f331f118f26749fc111a for 6664fa2416e8623689062ead
+[2024-07-06T14:23:00.357] [INFO] default - Resume consumer : peer 6664fa2416e8623689062ead, consumer 962f9380-e3d4-4809-8d39-eb91e83cfca1
+[2024-07-06T14:23:01.896] [INFO] default - Pause consumer : peer 6664fa2416e8623689062ead, consumer 962f9380-e3d4-4809-8d39-eb91e83cfca1
+[2024-07-06T14:23:01.900] [INFO] default - Resume consumer : peer 6664fa2416e8623689062ead, consumer 962f9380-e3d4-4809-8d39-eb91e83cfca1
+[2024-07-06T14:23:10.107] [INFO] default - Start Record : peer 6664f331f118f26749fc111a
+[2024-07-06T14:24:49.693] [INFO] default - Stop Record : peer 6664f331f118f26749fc111a
+[2024-07-06T14:52:54.417] [INFO] default - Running 4 Workers...
+[2024-07-06T14:58:55.680] [ERROR] default - Worker 9756 DIED, exiting in 5 secs
+[2024-07-06T14:58:55.682] [ERROR] default - Worker 15768 DIED, exiting in 5 secs
+[2024-07-06T14:59:04.336] [INFO] default - Running 4 Workers...
+[2024-07-06T19:27:06.804] [ERROR] default - Worker 15892 DIED, exiting in 5 secs
+[2024-07-06T19:27:06.806] [ERROR] default - Worker 2448 DIED, exiting in 5 secs
+[2024-07-06T19:27:10.571] [INFO] default - Running 4 Workers...
+[2024-07-06T19:27:26.123] [ERROR] default - Worker 2884 DIED, exiting in 5 secs
+[2024-07-06T19:27:29.529] [INFO] default - Running 4 Workers...
+[2024-07-06T19:48:07.936] [ERROR] default - Worker 14008 DIED, exiting in 5 secs
+[2024-07-06T19:48:07.937] [ERROR] default - Worker 9644 DIED, exiting in 5 secs
+[2024-07-06T19:48:11.199] [INFO] default - Running 4 Workers...

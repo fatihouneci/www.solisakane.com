@@ -1,0 +1,85 @@
+[2024-06-26T01:38:23.613] [INFO] default - Create Room undefined
+[2024-06-26T01:38:23.658] [INFO] default - Room created, roomId = undefined
+[2024-06-26T01:38:23.899] [INFO] default - Create producer Transport : peer 6664fa2416e8623689062ead
+[2024-06-26T01:38:24.057] [INFO] default - Create consumer Transport : peer 6664fa2416e8623689062ead
+[2024-06-26T01:38:24.168] [INFO] default - Join : [Host] 6664fa2416e8623689062ead
+[2024-06-26T01:38:24.502] [INFO] default - Connect producer Transport : peer 6664fa2416e8623689062ead
+[2024-06-26T01:38:24.577] [INFO] default - Produce : peer 6664fa2416e8623689062ead
+[2024-06-26T01:38:28.789] [INFO] default - Connection: chatId: 6665af4b42830e3b82f73db8, userToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjY0ZjMzMWYxMThmMjY3NDlmYzExMWEiLCJpYXQiOjE3MTkyNTkyNDJ9.ht5mhJIyq2hycLv6ghs_gVWsilMD-WJ5wq37REnBucI, peerId: 6664f331f118f26749fc111a
+[2024-06-26T01:38:29.406] [INFO] default - Create producer Transport : peer 6664f331f118f26749fc111a
+[2024-06-26T01:38:29.469] [INFO] default - Create consumer Transport : peer 6664f331f118f26749fc111a
+[2024-06-26T01:38:29.507] [INFO] default - Join : [Member] 6664f331f118f26749fc111a!
+[2024-06-26T01:38:29.510] [INFO] default - create consumer of 6664fa2416e8623689062ead for 6664f331f118f26749fc111a
+[2024-06-26T01:38:30.840] [INFO] default - Connect consumer Transport : peer 6664f331f118f26749fc111a
+[2024-06-26T01:38:30.878] [INFO] default - Connect producer Transport : peer 6664f331f118f26749fc111a
+[2024-06-26T01:38:31.102] [INFO] default - Resume consumer : peer 6664f331f118f26749fc111a, consumer 7be5d15d-4596-439d-835c-c828eeea0cab
+[2024-06-26T01:38:33.865] [INFO] default - Produce : peer 6664f331f118f26749fc111a
+[2024-06-26T01:38:33.869] [INFO] default - create consumer of 6664f331f118f26749fc111a for 6664fa2416e8623689062ead
+[2024-06-26T01:38:33.982] [INFO] default - Connect consumer Transport : peer 6664fa2416e8623689062ead
+[2024-06-26T01:38:34.133] [INFO] default - Resume consumer : peer 6664fa2416e8623689062ead, consumer 63ac0676-284c-4427-b3f6-e08f6cf847a0
+[2024-06-26T01:38:36.137] [INFO] default - Close producer : peer 6664fa2416e8623689062ead, producer e761d088-fdc2-47bc-809e-8828bdd5d6f4
+[2024-06-26T01:38:36.140] [INFO] default - Consumer of peer 6664f331f118f26749fc111a Closed because of producer of peer 6664fa2416e8623689062ead closed
+[2024-06-26T01:38:36.232] [INFO] default - Peer 6664fa2416e8623689062ead disconnected!
+[2024-06-26T01:38:36.233] [INFO] default - Host 6664fa2416e8623689062ead Exit
+[2024-06-26T01:38:36.236] [INFO] default - Peer 6664fa2416e8623689062ead closed
+[2024-06-26T01:38:43.289] [INFO] default - Close producer : peer 6664f331f118f26749fc111a, producer 08694bc2-c20d-420a-b99d-168af3b438f2
+[2024-06-26T01:38:44.224] [INFO] default - Peer 6664f331f118f26749fc111a disconnected!
+[2024-06-26T01:38:44.225] [INFO] default - Host 6664f331f118f26749fc111a Exit
+[2024-06-26T01:38:44.226] [INFO] default - Peer 6664f331f118f26749fc111a closed
+[2024-06-26T01:38:44.227] [INFO] default - Room undefined closed.
+[2024-06-26T01:38:44.228] [INFO] default - room [6665af4b42830e3b82f73db8] closed!
+[2024-06-26T01:39:09.798] [INFO] default - Connection: chatId: 6665af4b42830e3b82f73db8, userToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjY0ZmEyNDE2ZTg2MjM2ODkwNjJlYWQiLCJpYXQiOjE3MTc5NDA0NDJ9.imahVn1pwNiZVGs3eFJp7-wYnayolf-va8gVE1r93bA, peerId: 6664fa2416e8623689062ead
+[2024-06-26T01:39:09.827] [INFO] default - Create Room undefined
+[2024-06-26T01:39:09.840] [INFO] default - Room created, roomId = undefined
+[2024-06-26T01:39:09.992] [INFO] default - Create producer Transport : peer 6664fa2416e8623689062ead
+[2024-06-26T01:39:10.041] [INFO] default - Create consumer Transport : peer 6664fa2416e8623689062ead
+[2024-06-26T01:39:10.113] [INFO] default - Join : [Host] 6664fa2416e8623689062ead
+[2024-06-26T01:39:10.426] [INFO] default - Connect producer Transport : peer 6664fa2416e8623689062ead
+[2024-06-26T01:39:10.504] [INFO] default - Produce : peer 6664fa2416e8623689062ead
+[2024-06-26T01:39:14.267] [INFO] default - Connection: chatId: 6665af4b42830e3b82f73db8, userToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjY0ZjMzMWYxMThmMjY3NDlmYzExMWEiLCJpYXQiOjE3MTkyNTkyNDJ9.ht5mhJIyq2hycLv6ghs_gVWsilMD-WJ5wq37REnBucI, peerId: 6664f331f118f26749fc111a
+[2024-06-26T01:39:14.578] [INFO] default - Create producer Transport : peer 6664f331f118f26749fc111a
+[2024-06-26T01:39:14.668] [INFO] default - Create consumer Transport : peer 6664f331f118f26749fc111a
+[2024-06-26T01:39:14.715] [INFO] default - Join : [Member] 6664f331f118f26749fc111a!
+[2024-06-26T01:39:14.716] [INFO] default - create consumer of 6664fa2416e8623689062ead for 6664f331f118f26749fc111a
+[2024-06-26T01:39:16.239] [INFO] default - Connect consumer Transport : peer 6664f331f118f26749fc111a
+[2024-06-26T01:39:16.316] [INFO] default - Connect producer Transport : peer 6664f331f118f26749fc111a
+[2024-06-26T01:39:16.688] [INFO] default - Resume consumer : peer 6664f331f118f26749fc111a, consumer 6053d84b-8496-4a56-adc3-8573d1978126
+[2024-06-26T01:39:20.663] [INFO] default - Produce : peer 6664f331f118f26749fc111a
+[2024-06-26T01:39:20.666] [INFO] default - create consumer of 6664f331f118f26749fc111a for 6664fa2416e8623689062ead
+[2024-06-26T01:39:20.726] [INFO] default - Connect consumer Transport : peer 6664fa2416e8623689062ead
+[2024-06-26T01:39:20.885] [INFO] default - Resume consumer : peer 6664fa2416e8623689062ead, consumer a0dda0c0-a304-46fe-9eef-dc1b552c43f0
+[2024-06-26T01:39:48.224] [INFO] default - Close producer : peer 6664f331f118f26749fc111a, producer 27c503df-ce5d-4fc8-a417-3b2da50590d6
+[2024-06-26T01:39:48.226] [INFO] default - Consumer of peer 6664fa2416e8623689062ead Closed because of producer of peer 6664f331f118f26749fc111a closed
+[2024-06-26T01:39:55.111] [INFO] default - Peer 6664f331f118f26749fc111a disconnected!
+[2024-06-26T01:39:55.112] [INFO] default - Member Exit : 6664f331f118f26749fc111a!
+[2024-06-26T01:39:55.114] [INFO] default - Peer 6664f331f118f26749fc111a closed
+[2024-06-26T01:40:00.047] [INFO] default - Close producer : peer 6664fa2416e8623689062ead, producer 6748aa0f-6828-4cb4-8f8f-ba560e7004cf
+[2024-06-26T01:40:00.121] [INFO] default - Peer 6664fa2416e8623689062ead disconnected!
+[2024-06-26T01:40:00.122] [INFO] default - Host 6664fa2416e8623689062ead Exit
+[2024-06-26T01:40:00.123] [INFO] default - Peer 6664fa2416e8623689062ead closed
+[2024-06-26T01:40:00.123] [INFO] default - Room undefined closed.
+[2024-06-26T01:40:00.123] [INFO] default - room [6665af4b42830e3b82f73db8] closed!
+[2024-06-26T01:40:15.878] [INFO] default - Connection: chatId: 6665af4b42830e3b82f73db8, userToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjY0ZmEyNDE2ZTg2MjM2ODkwNjJlYWQiLCJpYXQiOjE3MTc5NDA0NDJ9.imahVn1pwNiZVGs3eFJp7-wYnayolf-va8gVE1r93bA, peerId: 6664fa2416e8623689062ead
+[2024-06-26T01:40:15.888] [INFO] default - Create Room undefined
+[2024-06-26T01:40:15.894] [INFO] default - Room created, roomId = undefined
+[2024-06-26T01:40:16.059] [INFO] default - Create producer Transport : peer 6664fa2416e8623689062ead
+[2024-06-26T01:40:16.097] [INFO] default - Create consumer Transport : peer 6664fa2416e8623689062ead
+[2024-06-26T01:40:16.135] [INFO] default - Join : [Host] 6664fa2416e8623689062ead
+[2024-06-26T01:40:16.412] [INFO] default - Connect producer Transport : peer 6664fa2416e8623689062ead
+[2024-06-26T01:40:16.464] [INFO] default - Produce : peer 6664fa2416e8623689062ead
+[2024-06-26T01:40:47.290] [ERROR] default - Worker 19008 DIED, exiting in 5 secs
+[2024-06-26T01:40:47.304] [ERROR] default - Worker 15316 DIED, exiting in 5 secs
+[2024-06-26T01:40:47.311] [ERROR] default - Worker 15800 DIED, exiting in 5 secs
+[2024-06-26T01:40:51.679] [INFO] default - Running 4 Workers...
+[2024-06-26T01:40:55.459] [INFO] default - Connection: chatId: 6665af4b42830e3b82f73db8, userToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjY0ZmEyNDE2ZTg2MjM2ODkwNjJlYWQiLCJpYXQiOjE3MTc5NDA0NDJ9.imahVn1pwNiZVGs3eFJp7-wYnayolf-va8gVE1r93bA, peerId: 6664fa2416e8623689062ead
+[2024-06-26T01:40:55.502] [INFO] default - Create Room undefined
+[2024-06-26T01:40:55.512] [INFO] default - Room created, roomId = undefined
+[2024-06-26T01:40:55.539] [WARN] default - request failed [Error: peer 6664fa2416e8623689062ead restart transport failed]
+[2024-06-26T01:40:55.750] [INFO] default - Create producer Transport : peer 6664fa2416e8623689062ead
+[2024-06-26T01:40:55.787] [INFO] default - Create consumer Transport : peer 6664fa2416e8623689062ead
+[2024-06-26T01:40:55.821] [INFO] default - Join : [Host] 6664fa2416e8623689062ead
+[2024-06-26T01:41:58.307] [INFO] default - Peer 6664fa2416e8623689062ead disconnected!
+[2024-06-26T01:41:58.308] [INFO] default - Host 6664fa2416e8623689062ead Exit
+[2024-06-26T01:41:58.311] [INFO] default - Peer 6664fa2416e8623689062ead closed
+[2024-06-26T01:41:58.311] [INFO] default - Room undefined closed.
+[2024-06-26T01:41:58.312] [INFO] default - room [6665af4b42830e3b82f73db8] closed!

@@ -1,0 +1,72 @@
+version: "3"
+services:
+  mongodb:
+    image: mongo
+    container_name: solisakane_db
+    restart: always
+    # environment:
+    #   - MONGO_INITDB_ROOT_USERNAME=root
+    #   - MONGO_INITDB_ROOT_PASSWORD=example
+    # ports:
+    #   - 27022:27017
+    volumes:
+      - db-volume:/data/db
+
+  redis:
+    image: redis:6.2-alpine
+    container_name: solisakane_redis
+    restart: always
+    # ports:
+    #   - "6379:6379"
+    volumes:
+      - redis-volume:/data/redis
+
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: solisakane_api
+    environment:
+      - MONGODB_URL=mongodb://mongodb:27017/solisakane
+      # - MONGODB_URL=mongodb://root:example@mongo:27017/
+      - PORT=5000
+      - JWT_SECRET=SECRET
+      - REDIS_URL=redis
+      - REDIS_PORT=6379
+    depends_on:
+      - mongodb
+      - redis
+    restart: always
+    ports:
+      - 5100:5000
+      - 40000-40100:40000-40100/udp
+      - 40000-40100:40000-40100/tcp
+    volumes:
+      - img-volume:/app/uploads
+
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: solisakane_app
+    restart: always
+    environment:
+      NODE_ENV: production
+    depends_on:
+      - server
+
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    container_name: solisakane_nginx
+    ports:
+      - "3016:80"
+    depends_on:
+      - web
+      - server
+
+volumes:
+  db-volume:
+  img-volume:
+  redis-volume:

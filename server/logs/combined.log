@@ -1,0 +1,10 @@
+{"level":"info","message":"Device registered for notifications: ba4ea45dac33cdf6 for user 681900ebf939935d048c1adc","service":"chat-app","timestamp":"2025-08-14 02:22:54"}
+{"level":"info","message":"Device registered for notifications: 07b73db8a1e94d02 for user 6819114d10dbecccb8aa0135","service":"chat-app","timestamp":"2025-08-14 02:24:22"}
+{"level":"error","message":"Error sending to device c_mGPkYIQ0ae6W-oAkX9Xx:APA91bF6r1TCT4aST5-JU5il_LtMh6JTV6ApDmr7nHwXn0gg_zISmNkJmYaigUtGWLF3B3wPkWOYUngrRnApKytcms7DT6xYTVMCvWsZ0pz8s-el5nAdAoY: SenderId mismatch","service":"chat-app","timestamp":"2025-08-14 02:29:45"}
+{"level":"info","message":"Notification sent to user 681900ebf939935d048c1adc on 2 devices","service":"chat-app","timestamp":"2025-08-14 02:29:45"}
+{"level":"warn","message":"No devices found for user 6819117910dbecccb8aa105a","service":"chat-app","timestamp":"2025-08-14 02:29:45"}
+{"level":"info","message":"Device registered for notifications: ba4ea45dac33cdf6 for user 681900ebf939935d048c1adc","service":"chat-app","timestamp":"2025-08-14 02:30:22"}
+{"level":"info","message":"Device registered for notifications: 07b73db8a1e94d02 for user 6819114d10dbecccb8aa0135","service":"chat-app","timestamp":"2025-08-14 02:30:27"}
+{"level":"error","message":"Error sending to device c_mGPkYIQ0ae6W-oAkX9Xx:APA91bF6r1TCT4aST5-JU5il_LtMh6JTV6ApDmr7nHwXn0gg_zISmNkJmYaigUtGWLF3B3wPkWOYUngrRnApKytcms7DT6xYTVMCvWsZ0pz8s-el5nAdAoY: SenderId mismatch","service":"chat-app","timestamp":"2025-08-14 02:30:49"}
+{"level":"info","message":"Notification sent to user 681900ebf939935d048c1adc on 2 devices","service":"chat-app","timestamp":"2025-08-14 02:30:49"}
+{"level":"warn","message":"No devices found for user 6819117910dbecccb8aa105a","service":"chat-app","timestamp":"2025-08-14 02:30:49"}

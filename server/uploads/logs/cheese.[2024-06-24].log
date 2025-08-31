@@ -1,0 +1,79 @@
+[2024-06-24T13:50:41.078] [INFO] default - Running 4 Workers...
+[2024-06-24T13:50:55.671] [ERROR] default - Worker 608 DIED, exiting in 5 secs
+[2024-06-24T13:50:58.683] [INFO] default - Running 4 Workers...
+[2024-06-24T13:55:03.025] [INFO] default - Running 4 Workers...
+[2024-06-24T13:57:00.595] [ERROR] default - Worker 2412 DIED, exiting in 5 secs
+[2024-06-24T13:57:00.596] [ERROR] default - Worker 16404 DIED, exiting in 5 secs
+[2024-06-24T13:57:04.540] [INFO] default - Running 4 Workers...
+[2024-06-24T14:00:56.943] [INFO] default - Running 4 Workers...
+[2024-06-24T14:01:36.029] [ERROR] default - Worker 17372 DIED, exiting in 5 secs
+[2024-06-24T14:01:36.040] [ERROR] default - Worker 9072 DIED, exiting in 5 secs
+[2024-06-24T14:01:36.041] [ERROR] default - Worker 13500 DIED, exiting in 5 secs
+[2024-06-24T14:01:39.927] [INFO] default - Running 4 Workers...
+[2024-06-24T14:03:32.507] [INFO] default - Running 4 Workers...
+[2024-06-24T14:06:09.631] [INFO] default - Running 4 Workers...
+[2024-06-24T14:06:36.263] [ERROR] default - Worker 8288 DIED, exiting in 5 secs
+[2024-06-24T14:06:36.267] [ERROR] default - Worker 12768 DIED, exiting in 5 secs
+[2024-06-24T14:06:39.054] [INFO] default - Running 4 Workers...
+[2024-06-24T16:56:59.614] [INFO] default - Running 4 Workers...
+[2024-06-24T16:57:38.918] [ERROR] default - Worker 16548 DIED, exiting in 5 secs
+[2024-06-24T16:57:43.172] [INFO] default - Running 4 Workers...
+[2024-06-24T19:45:27.804] [INFO] default - Running 4 Workers...
+[2024-06-24T19:50:49.758] [INFO] default - Running 4 Workers...
+[2024-06-24T20:01:05.964] [INFO] default - Connection: chatId: 6665af4b42830e3b82f73db8, userToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjY0ZmEyNDE2ZTg2MjM2ODkwNjJlYWQiLCJpYXQiOjE3MTc5NDA0NDJ9.imahVn1pwNiZVGs3eFJp7-wYnayolf-va8gVE1r93bA, peerId: 6664fa2416e8623689062ead
+[2024-06-24T20:01:06.209] [INFO] default - Create Room undefined
+[2024-06-24T20:01:06.255] [INFO] default - Room created, roomId = undefined
+[2024-06-24T20:01:07.129] [INFO] default - Create producer Transport : peer 6664fa2416e8623689062ead
+[2024-06-24T20:01:07.682] [INFO] default - Create consumer Transport : peer 6664fa2416e8623689062ead
+[2024-06-24T20:01:07.825] [INFO] default - Join : [Host] 6664fa2416e8623689062ead
+[2024-06-24T20:01:48.373] [INFO] default - Connect producer Transport : peer 6664fa2416e8623689062ead
+[2024-06-24T20:01:48.712] [INFO] default - Produce : peer 6664fa2416e8623689062ead
+[2024-06-24T20:02:06.642] [INFO] default - Connection: chatId: 6665af4b42830e3b82f73db8, userToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjY0ZjMzMWYxMThmMjY3NDlmYzExMWEiLCJpYXQiOjE3MTkyNTkyNDJ9.ht5mhJIyq2hycLv6ghs_gVWsilMD-WJ5wq37REnBucI, peerId: 6664f331f118f26749fc111a
+[2024-06-24T20:02:07.081] [INFO] default - Create producer Transport : peer 6664f331f118f26749fc111a
+[2024-06-24T20:02:07.136] [INFO] default - Create consumer Transport : peer 6664f331f118f26749fc111a
+[2024-06-24T20:02:07.164] [INFO] default - Join : [Member] 6664f331f118f26749fc111a!
+[2024-06-24T20:02:07.166] [INFO] default - create consumer of 6664fa2416e8623689062ead for 6664f331f118f26749fc111a
+[2024-06-24T20:02:07.269] [INFO] default - Connect consumer Transport : peer 6664f331f118f26749fc111a
+[2024-06-24T20:02:37.827] [INFO] default - Connect producer Transport : peer 6664f331f118f26749fc111a
+[2024-06-24T20:02:38.526] [INFO] default - Produce : peer 6664f331f118f26749fc111a
+[2024-06-24T20:02:38.530] [INFO] default - create consumer of 6664f331f118f26749fc111a for 6664fa2416e8623689062ead
+[2024-06-24T20:02:38.736] [INFO] default - Connect consumer Transport : peer 6664fa2416e8623689062ead
+[2024-06-24T20:02:38.969] [INFO] default - Resume consumer : peer 6664fa2416e8623689062ead, consumer 0212eb28-7da8-48fa-a587-3edfae66c093
+[2024-06-24T20:03:01.642] [INFO] default - Peer 6664f331f118f26749fc111a disconnected!
+[2024-06-24T20:03:01.643] [INFO] default - Member Exit : 6664f331f118f26749fc111a!
+[2024-06-24T20:03:01.648] [INFO] default - Peer 6664f331f118f26749fc111a closed
+[2024-06-24T20:03:01.649] [INFO] default - Consumer of peer 6664fa2416e8623689062ead Closed because of producer of peer 6664f331f118f26749fc111a closed
+[2024-06-24T20:03:53.069] [INFO] default - Connection: chatId: 6665af4b42830e3b82f73db8, userToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjY0ZjMzMWYxMThmMjY3NDlmYzExMWEiLCJpYXQiOjE3MTkyNTkyNDJ9.ht5mhJIyq2hycLv6ghs_gVWsilMD-WJ5wq37REnBucI, peerId: 6664f331f118f26749fc111a
+[2024-06-24T20:03:57.670] [WARN] default - request failed [Error: peer 6664f331f118f26749fc111a restart transport failed]
+[2024-06-24T20:03:59.136] [INFO] default - Produce : peer 6664f331f118f26749fc111a
+[2024-06-24T20:04:05.564] [INFO] default - Create producer Transport : peer 6664f331f118f26749fc111a
+[2024-06-24T20:04:05.659] [INFO] default - Create consumer Transport : peer 6664f331f118f26749fc111a
+[2024-06-24T20:04:05.757] [INFO] default - Join : [Member] 6664f331f118f26749fc111a!
+[2024-06-24T20:04:05.759] [INFO] default - create consumer of 6664fa2416e8623689062ead for 6664f331f118f26749fc111a
+[2024-06-24T20:04:06.642] [INFO] default - Connect consumer Transport : peer 6664f331f118f26749fc111a
+[2024-06-24T20:04:07.037] [INFO] default - Resume consumer : peer 6664f331f118f26749fc111a, consumer 98362456-1cde-4e0b-a7bc-2c68c2ed1365
+[2024-06-24T20:04:24.686] [INFO] default - Produce : peer 6664fa2416e8623689062ead
+[2024-06-24T20:04:24.693] [INFO] default - create consumer of 6664fa2416e8623689062ead for 6664f331f118f26749fc111a
+[2024-06-24T20:04:24.942] [INFO] default - Resume consumer : peer 6664f331f118f26749fc111a, consumer 8c92c0c1-475a-42a4-bbbe-e3157b577c7c
+[2024-06-24T20:04:25.302] [INFO] default - Pause consumer : peer 6664f331f118f26749fc111a, consumer 8c92c0c1-475a-42a4-bbbe-e3157b577c7c
+[2024-06-24T20:04:25.306] [INFO] default - Resume consumer : peer 6664f331f118f26749fc111a, consumer 8c92c0c1-475a-42a4-bbbe-e3157b577c7c
+[2024-06-24T20:04:41.516] [INFO] default - Pause consumer : peer 6664f331f118f26749fc111a, consumer 8c92c0c1-475a-42a4-bbbe-e3157b577c7c
+[2024-06-24T20:04:41.566] [INFO] default - Resume consumer : peer 6664f331f118f26749fc111a, consumer 8c92c0c1-475a-42a4-bbbe-e3157b577c7c
+[2024-06-24T20:04:42.501] [INFO] default - Pause consumer : peer 6664f331f118f26749fc111a, consumer 8c92c0c1-475a-42a4-bbbe-e3157b577c7c
+[2024-06-24T20:04:42.553] [INFO] default - Resume consumer : peer 6664f331f118f26749fc111a, consumer 8c92c0c1-475a-42a4-bbbe-e3157b577c7c
+[2024-06-24T20:04:59.642] [INFO] default - Peer 6664f331f118f26749fc111a disconnected!
+[2024-06-24T20:04:59.642] [INFO] default - Member Exit : 6664f331f118f26749fc111a!
+[2024-06-24T20:04:59.644] [INFO] default - Peer 6664f331f118f26749fc111a closed
+[2024-06-24T20:05:04.758] [INFO] default - Close producer : peer 6664fa2416e8623689062ead, producer d1cd9a80-9989-4dea-bf47-0677c27bb642
+[2024-06-24T20:05:04.907] [INFO] default - Close producer : peer 6664fa2416e8623689062ead, producer 40508a0e-1c99-4dd9-865f-7e76fcc53b73
+[2024-06-24T20:05:04.985] [INFO] default - Peer 6664fa2416e8623689062ead disconnected!
+[2024-06-24T20:05:04.985] [INFO] default - Host 6664fa2416e8623689062ead Exit
+[2024-06-24T20:05:04.986] [INFO] default - Peer 6664fa2416e8623689062ead closed
+[2024-06-24T20:05:04.986] [INFO] default - Room undefined closed.
+[2024-06-24T20:05:04.987] [INFO] default - room [6665af4b42830e3b82f73db8] closed!
+[2024-06-24T20:05:14.543] [INFO] default - Connection: chatId: 6665af4b42830e3b82f73db8, userToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjY0ZjMzMWYxMThmMjY3NDlmYzExMWEiLCJpYXQiOjE3MTkyNTkyNDJ9.ht5mhJIyq2hycLv6ghs_gVWsilMD-WJ5wq37REnBucI, peerId: 6664f331f118f26749fc111a
+[2024-06-24T20:05:14.558] [INFO] default - Create Room undefined
+[2024-06-24T20:05:14.576] [INFO] default - Room created, roomId = undefined
+[2024-06-24T20:05:14.888] [INFO] default - Create producer Transport : peer 6664f331f118f26749fc111a
+[2024-06-24T20:05:14.926] [INFO] default - Create consumer Transport : peer 6664f331f118f26749fc111a
+[2024-06-24T20:05:14.957] [INFO] default - Join : [Host] 6664f331f118f26749fc111a

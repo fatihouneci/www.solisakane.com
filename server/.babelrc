@@ -1,0 +1,23 @@
+{
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ],
+    "plugins": [
+      "@babel/plugin-transform-modules-commonjs",
+      [
+        "module-resolver",
+        {
+          "root": ["."], // Adjust this path based on your project structure
+          "extensions": [".js", ".jsx", ".json"]
+        }
+      ]
+    ]
+  }
+  

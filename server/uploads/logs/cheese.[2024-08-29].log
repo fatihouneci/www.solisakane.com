@@ -1,0 +1,35 @@
+[2024-08-29T21:50:01.338] [INFO] default - Resume consumer : peer 66bb5f088e94a89444007138, consumer 2ea33b1e-21fb-4860-8bc2-285474a96786
+[2024-08-29T21:50:01.461] [INFO] default - Produce : peer 66bb5f588e94a89444007142
+[2024-08-29T21:50:01.464] [INFO] default - create consumer of 66bb5f588e94a89444007142 for 66bb5f088e94a89444007138
+[2024-08-29T21:50:01.923] [INFO] default - Resume consumer : peer 66bb5f088e94a89444007138, consumer dd6d9d2e-0cad-49e2-a399-203f3b777db8
+[2024-08-29T21:50:01.937] [INFO] default - Pause consumer : peer 66bb5f088e94a89444007138, consumer 2ea33b1e-21fb-4860-8bc2-285474a96786
+[2024-08-29T21:50:01.944] [INFO] default - Resume consumer : peer 66bb5f088e94a89444007138, consumer 2ea33b1e-21fb-4860-8bc2-285474a96786
+[2024-08-29T21:50:08.865] [INFO] default - Close producer : peer 66bb5f088e94a89444007138, producer 32ab5924-a648-40ba-b3df-887245062c6c
+[2024-08-29T21:50:08.866] [INFO] default - Consumer of peer 66bb5f588e94a89444007142 Closed because of producer of peer 66bb5f088e94a89444007138 closed
+[2024-08-29T21:50:08.930] [INFO] default - Pause consumer : peer 66bb5f088e94a89444007138, consumer 2ea33b1e-21fb-4860-8bc2-285474a96786
+[2024-08-29T21:50:08.935] [INFO] default - Resume consumer : peer 66bb5f088e94a89444007138, consumer 2ea33b1e-21fb-4860-8bc2-285474a96786
+[2024-08-29T21:50:08.989] [INFO] default - Pause consumer : peer 66bb5f088e94a89444007138, consumer 2ea33b1e-21fb-4860-8bc2-285474a96786
+[2024-08-29T21:50:09.035] [INFO] default - Resume consumer : peer 66bb5f088e94a89444007138, consumer 2ea33b1e-21fb-4860-8bc2-285474a96786
+[2024-08-29T21:50:09.041] [INFO] default - Pause consumer : peer 66bb5f088e94a89444007138, consumer 2ea33b1e-21fb-4860-8bc2-285474a96786
+[2024-08-29T21:50:09.042] [INFO] default - Resume consumer : peer 66bb5f088e94a89444007138, consumer 2ea33b1e-21fb-4860-8bc2-285474a96786
+[2024-08-29T21:50:18.292] [INFO] default - Pause consumer : peer 66bb5f088e94a89444007138, consumer 2ea33b1e-21fb-4860-8bc2-285474a96786
+[2024-08-29T21:50:18.298] [INFO] default - Resume consumer : peer 66bb5f088e94a89444007138, consumer 2ea33b1e-21fb-4860-8bc2-285474a96786
+[2024-08-29T21:50:19.903] [INFO] default - Pause consumer : peer 66bb5f088e94a89444007138, consumer 2ea33b1e-21fb-4860-8bc2-285474a96786
+[2024-08-29T21:50:19.911] [INFO] default - Resume consumer : peer 66bb5f088e94a89444007138, consumer 2ea33b1e-21fb-4860-8bc2-285474a96786
+[2024-08-29T21:50:21.065] [INFO] default - CLOSE ROOM : Host 66bb5f088e94a89444007138 Exit, room closed!
+[2024-08-29T21:50:21.067] [INFO] default - Room undefined closed.
+[2024-08-29T21:50:21.070] [INFO] default - Peer 66bb5f088e94a89444007138 closed
+[2024-08-29T21:50:21.071] [INFO] default - Peer 66bb5f588e94a89444007142 closed
+[2024-08-29T21:50:21.071] [INFO] default - Room undefined closed.
+[2024-08-29T21:50:21.072] [INFO] default - room [66bb772ec3c8b1b56f7ec2f6] closed!
+[2024-08-29T21:50:21.072] [INFO] default - room [66bb772ec3c8b1b56f7ec2f6] closed!
+[2024-08-29T21:50:21.087] [INFO] default - Peer 66bb5f088e94a89444007138 disconnected!
+[2024-08-29T21:50:21.088] [INFO] default - Host 66bb5f088e94a89444007138 Exit
+[2024-08-29T21:50:21.088] [INFO] default - Peer 66bb5f088e94a89444007138 closed
+[2024-08-29T21:50:21.088] [INFO] default - Room undefined closed.
+[2024-08-29T21:50:21.089] [INFO] default - room [66bb772ec3c8b1b56f7ec2f6] closed!
+[2024-08-29T21:50:21.420] [INFO] default - Peer 66bb5f588e94a89444007142 disconnected!
+[2024-08-29T21:50:21.421] [INFO] default - Member Exit : 66bb5f588e94a89444007142!
+[2024-08-29T21:50:21.421] [INFO] default - Peer 66bb5f588e94a89444007142 closed
+[2024-08-29T21:50:21.421] [INFO] default - Room undefined closed.
+[2024-08-29T21:50:21.421] [INFO] default - room [66bb772ec3c8b1b56f7ec2f6] closed!

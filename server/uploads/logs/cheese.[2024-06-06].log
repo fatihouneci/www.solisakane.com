@@ -1,0 +1,63 @@
+[2024-06-06T17:11:45.366] [INFO] default - Connection: chatId: undefined, userToken: undefined, peerId: undefined
+[2024-06-06T17:11:45.406] [INFO] default - peer undefined reconnect
+[2024-06-06T17:11:45.626] [INFO] default - Create producer Transport : peer undefined
+[2024-06-06T17:11:45.700] [INFO] default - Create consumer Transport : peer undefined
+[2024-06-06T17:11:45.761] [INFO] default - Join : [Host] undefined
+[2024-06-06T17:11:46.169] [INFO] default - Connect producer Transport : peer undefined
+[2024-06-06T17:11:46.247] [INFO] default - Produce : peer undefined
+[2024-06-06T17:12:38.273] [ERROR] default - Worker 6092 DIED, exiting in 5 secs
+[2024-06-06T17:12:38.302] [INFO] default - transport e642fb41-c099-4e0a-8e43-8e0393d9c681 closed because of router closed!
+[2024-06-06T17:12:38.302] [INFO] default - transport 12b40d15-8429-4a0c-8b33-de43acbc2538 closed because of router closed!
+[2024-06-06T17:12:38.302] [ERROR] default - Worker 25284 DIED, exiting in 5 secs
+[2024-06-06T17:12:38.324] [ERROR] default - Worker 22480 DIED, exiting in 5 secs
+[2024-06-06T17:12:44.419] [INFO] default - Running 4 Workers...
+[2024-06-06T17:12:46.414] [INFO] default - Connection: chatId: undefined, userToken: undefined, peerId: undefined
+[2024-06-06T17:12:46.451] [INFO] default - Create Room undefined
+[2024-06-06T17:12:46.461] [INFO] default - Room created, roomId = undefined
+[2024-06-06T17:12:46.471] [WARN] default - request failed [Error: peer undefined restart transport failed]
+[2024-06-06T17:12:46.708] [INFO] default - Create producer Transport : peer undefined
+[2024-06-06T17:12:46.747] [INFO] default - Create consumer Transport : peer undefined
+[2024-06-06T17:12:46.770] [INFO] default - Join : [Host] undefined
+[2024-06-06T17:17:46.590] [INFO] default - Peer undefined disconnected!
+[2024-06-06T17:17:46.592] [INFO] default - Host undefined Exit
+[2024-06-06T17:17:46.595] [INFO] default - Peer undefined closed
+[2024-06-06T17:17:46.595] [INFO] default - Room undefined closed.
+[2024-06-06T17:17:46.596] [INFO] default - room [undefined] closed!
+[2024-06-06T17:19:00.349] [INFO] default - Connection: chatId: undefined, userToken: undefined, peerId: undefined
+[2024-06-06T17:19:00.358] [INFO] default - Create Room undefined
+[2024-06-06T17:19:00.363] [INFO] default - Room created, roomId = undefined
+[2024-06-06T17:19:01.906] [INFO] default - Connection: chatId: undefined, userToken: undefined, peerId: undefined
+[2024-06-06T17:19:01.913] [INFO] default - peer undefined reconnect
+[2024-06-06T17:19:02.216] [INFO] default - Create producer Transport : peer undefined
+[2024-06-06T17:19:02.287] [INFO] default - Create consumer Transport : peer undefined
+[2024-06-06T17:19:02.336] [INFO] default - Join : [Host] undefined
+[2024-06-06T17:19:02.729] [INFO] default - Connect producer Transport : peer undefined
+[2024-06-06T17:19:02.839] [INFO] default - Produce : peer undefined
+[2024-06-06T17:20:52.919] [ERROR] default - Worker 24988 DIED, exiting in 5 secs
+[2024-06-06T17:20:52.952] [INFO] default - transport 0ff53fee-c59c-4ae8-bbae-70ed3910a50f closed because of router closed!
+[2024-06-06T17:20:52.952] [INFO] default - transport 5c7240ca-6be3-4b1f-a7be-ca01aecb2ed8 closed because of router closed!
+[2024-06-06T17:20:52.953] [ERROR] default - Worker 26140 DIED, exiting in 5 secs
+[2024-06-06T17:20:53.137] [ERROR] default - Worker 9580 DIED, exiting in 5 secs
+[2024-06-06T17:20:53.163] [ERROR] default - Worker 27864 DIED, exiting in 5 secs
+[2024-06-06T17:21:05.240] [INFO] default - Running 4 Workers...
+[2024-06-06T17:21:09.529] [INFO] default - Connection: chatId: undefined, userToken: undefined, peerId: undefined
+[2024-06-06T17:21:09.569] [INFO] default - Create Room undefined
+[2024-06-06T17:21:09.586] [INFO] default - Room created, roomId = undefined
+[2024-06-06T17:21:19.914] [INFO] default - Create producer Transport : peer undefined
+[2024-06-06T17:21:19.958] [INFO] default - Create consumer Transport : peer undefined
+[2024-06-06T17:21:19.982] [INFO] default - Join : [Host] undefined
+[2024-06-06T17:22:47.245] [INFO] default - Peer undefined disconnected!
+[2024-06-06T17:22:47.247] [INFO] default - Host undefined Exit
+[2024-06-06T17:22:47.249] [INFO] default - Peer undefined closed
+[2024-06-06T17:22:47.249] [INFO] default - Room undefined closed.
+[2024-06-06T17:22:47.250] [INFO] default - room [undefined] closed!
+[2024-06-06T17:23:06.338] [INFO] default - Connection: chatId: undefined, userToken: undefined, peerId: undefined
+[2024-06-06T17:23:06.348] [INFO] default - Create Room undefined
+[2024-06-06T17:23:06.450] [INFO] default - Room created, roomId = undefined
+[2024-06-06T17:23:07.806] [INFO] default - Connection: chatId: undefined, userToken: undefined, peerId: undefined
+[2024-06-06T17:23:07.814] [INFO] default - peer undefined reconnect
+[2024-06-06T17:23:07.918] [INFO] default - Create producer Transport : peer undefined
+[2024-06-06T17:23:07.972] [INFO] default - Create consumer Transport : peer undefined
+[2024-06-06T17:23:08.004] [INFO] default - Join : [Host] undefined
+[2024-06-06T17:23:08.276] [INFO] default - Connect producer Transport : peer undefined
+[2024-06-06T17:23:08.352] [INFO] default - Produce : peer undefined

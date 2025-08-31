@@ -1,0 +1,14 @@
+[2024-07-08T23:09:44.811] [INFO] default - Room undefined closed.
+[2024-07-08T23:09:44.811] [INFO] default - room [6665af4b42830e3b82f73db8] closed!
+[2024-07-08T23:09:56.582] [INFO] default - Connection: chatId: 6665af4b42830e3b82f73db8, userToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjY0ZmEyNDE2ZTg2MjM2ODkwNjJlYWQiLCJpYXQiOjE3MjA0Nzg1NTh9.87-oIQsy3vjQ3pUUecQOy-jG3w08deoBHItVUKxP6gM, peerId: 6664fa2416e8623689062ead
+[2024-07-08T23:09:56.589] [INFO] default - Create Room undefined
+[2024-07-08T23:09:56.592] [INFO] default - Room created, roomId = undefined
+[2024-07-08T23:09:57.010] [INFO] default - Create producer Transport : peer 6664fa2416e8623689062ead
+[2024-07-08T23:09:57.024] [WARN] default - request failed [Error: no more available ports [transport:udp, ip:'0.0.0.0', numAttempt:101] [method:router.createWebRtcTransport]]
+[2024-07-08T23:09:58.069] [INFO] default - Peer 6664fa2416e8623689062ead disconnected!
+[2024-07-08T23:09:58.069] [INFO] default - Host 6664fa2416e8623689062ead Exit
+[2024-07-08T23:09:58.069] [INFO] default - Peer 6664fa2416e8623689062ead closed
+[2024-07-08T23:09:58.069] [INFO] default - Room undefined closed.
+[2024-07-08T23:09:58.071] [INFO] default - room [6665af4b42830e3b82f73db8] closed!
+[2024-07-08T23:30:12.543] [INFO] default - Running 4 Workers...
+[2024-07-08T23:35:47.566] [INFO] default - Running 4 Workers...

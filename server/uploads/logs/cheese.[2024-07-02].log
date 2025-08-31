@@ -1,0 +1,11 @@
+[2024-07-02T14:34:37.043] [INFO] default - Peer 6664f331f118f26749fc111a closed
+[2024-07-02T14:34:37.043] [INFO] default - Room undefined closed.
+[2024-07-02T14:34:37.044] [INFO] default - room [6665af4b42830e3b82f73db8] closed!
+[2024-07-02T14:35:37.013] [INFO] default - Connection: chatId: 6665af4b42830e3b82f73db8, userToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjY0ZmEyNDE2ZTg2MjM2ODkwNjJlYWQiLCJpYXQiOjE3MTk5Mjk2NzZ9.zpYA7yZowz4L_yOE2ztvavRUdBYmGQ5mVdgL31sxrFU, peerId: 6664fa2416e8623689062ead
+[2024-07-02T14:35:37.022] [INFO] default - Create Room undefined
+[2024-07-02T14:35:37.031] [INFO] default - Room created, roomId = undefined
+[2024-07-02T14:36:22.013] [INFO] default - Peer 6664fa2416e8623689062ead disconnected!
+[2024-07-02T14:36:22.013] [INFO] default - Host 6664fa2416e8623689062ead Exit
+[2024-07-02T14:36:22.013] [INFO] default - Peer 6664fa2416e8623689062ead closed
+[2024-07-02T14:36:22.013] [INFO] default - Room undefined closed.
+[2024-07-02T14:36:22.014] [INFO] default - room [6665af4b42830e3b82f73db8] closed!

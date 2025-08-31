@@ -1,0 +1,26 @@
+[2024-07-09T21:43:09.586] [INFO] default - Resume consumer : peer 6664f331f118f26749fc111a, consumer fa011cf9-c782-4cf9-92be-47dd9e5590cc
+[2024-07-09T21:43:15.283] [INFO] default - Produce : peer 6664f331f118f26749fc111a
+[2024-07-09T21:43:15.287] [INFO] default - create consumer of 6664f331f118f26749fc111a for 6664fa2416e8623689062ead
+[2024-07-09T21:43:20.830] [INFO] default - Resume consumer : peer 6664fa2416e8623689062ead, consumer 57a54d36-7362-4f63-aa30-0a951dde9a1d
+[2024-07-09T21:43:24.238] [INFO] default - Pause consumer : peer 6664fa2416e8623689062ead, consumer 57a54d36-7362-4f63-aa30-0a951dde9a1d
+[2024-07-09T21:43:24.287] [INFO] default - Resume consumer : peer 6664fa2416e8623689062ead, consumer 57a54d36-7362-4f63-aa30-0a951dde9a1d
+[2024-07-09T21:44:09.113] [INFO] default - Pause consumer : peer 6664fa2416e8623689062ead, consumer 57a54d36-7362-4f63-aa30-0a951dde9a1d
+[2024-07-09T21:44:10.040] [INFO] default - Resume consumer : peer 6664fa2416e8623689062ead, consumer 57a54d36-7362-4f63-aa30-0a951dde9a1d
+[2024-07-09T21:44:30.954] [INFO] default - Produce : peer 6664fa2416e8623689062ead
+[2024-07-09T21:44:30.959] [INFO] default - create consumer of 6664fa2416e8623689062ead for 6664f331f118f26749fc111a
+[2024-07-09T21:44:31.123] [INFO] default - Resume consumer : peer 6664f331f118f26749fc111a, consumer b3b6735f-b1ce-47bd-8954-7249d1d4ec29
+[2024-07-09T21:44:31.249] [INFO] default - Pause consumer : peer 6664f331f118f26749fc111a, consumer b3b6735f-b1ce-47bd-8954-7249d1d4ec29
+[2024-07-09T21:44:31.264] [INFO] default - Resume consumer : peer 6664f331f118f26749fc111a, consumer b3b6735f-b1ce-47bd-8954-7249d1d4ec29
+[2024-07-09T21:45:48.005] [INFO] default - Close producer : peer 6664fa2416e8623689062ead, producer 69ab4777-e1a9-4121-b73f-ba12cf57beb6
+[2024-07-09T21:45:48.008] [INFO] default - Consumer of peer 6664f331f118f26749fc111a Closed because of producer of peer 6664fa2416e8623689062ead closed
+[2024-07-09T21:46:02.049] [INFO] default - Pause consumer : peer 6664fa2416e8623689062ead, consumer 57a54d36-7362-4f63-aa30-0a951dde9a1d
+[2024-07-09T21:46:13.358] [INFO] default - Resume consumer : peer 6664fa2416e8623689062ead, consumer 57a54d36-7362-4f63-aa30-0a951dde9a1d
+[2024-07-09T21:46:13.957] [INFO] default - Close producer : peer 6664fa2416e8623689062ead, producer aefedede-5213-4085-929e-bacf37a50745
+[2024-07-09T21:46:13.959] [INFO] default - Consumer of peer 6664f331f118f26749fc111a Closed because of producer of peer 6664fa2416e8623689062ead closed
+[2024-07-09T21:46:18.071] [INFO] default - Close producer : peer 6664f331f118f26749fc111a, producer 75683da2-d9f1-4f3a-b13f-b70a18f4c408
+[2024-07-09T21:46:18.072] [INFO] default - Consumer of peer 6664fa2416e8623689062ead Closed because of producer of peer 6664f331f118f26749fc111a closed
+[2024-07-09T21:46:18.235] [INFO] default - Close producer : peer 6664f331f118f26749fc111a, producer 80e4c403-9454-4f7e-b0d5-42e897ed07a3
+[2024-07-09T21:46:18.236] [INFO] default - Consumer of peer 6664fa2416e8623689062ead Closed because of producer of peer 6664f331f118f26749fc111a closed
+[2024-07-09T21:46:18.310] [INFO] default - Peer 6664f331f118f26749fc111a disconnected!
+[2024-07-09T21:46:18.311] [INFO] default - Host 6664f331f118f26749fc111a Exit
+[2024-07-09T21:46:18.313] [INFO] default - Peer 6664f331f118f26749fc111a closed
