@@ -1,7 +1,7 @@
 ## Contibution
 
 ### 1. Cloner le projet en local
-git clone https://github.com/utilisateur/nom-du-projet.git
+git clone https://github.com/fatihouneci/www.solisakane.com.git
 cd nom-du-projet
 
 ### 2. Créer une branche pour vos modifications
