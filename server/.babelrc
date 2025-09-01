@@ -1,23 +1,28 @@
 {
-    "presets": [
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "node": "current"
-          }
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
         }
-      ]
-    ],
-    "plugins": [
-      "@babel/plugin-transform-modules-commonjs",
-      [
-        "module-resolver",
-        {
-          "root": ["."], // Adjust this path based on your project structure
-          "extensions": [".js", ".jsx", ".json"]
-        }
-      ]
+      }
     ]
-  }
-  
+  ],
+  "plugins": [
+    [
+      "babel-plugin-module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "@": "./",
+          "@controllers": "./controllers",
+          "@models": "./models",
+          "@routes": "./routes",
+          "@helpers": "./helpers",
+          "@config": "./config"
+        }
+      }
+    ]
+  ]
+}
