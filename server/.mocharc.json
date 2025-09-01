@@ -1,0 +1,17 @@
+{
+  "timeout": 10000,
+  "recursive": true,
+  "exit": true,
+  "require": [
+    "@babel/register"
+  ],
+  "spec": "tests/**/*.test.js",
+  "reporter": "spec",
+  "bail": false,
+  "slow": 2000,
+  "grep": "",
+  "growl": false,
+  "inline-diffs": true,
+  "check-leaks": true,
+  "full-trace": true
+}
