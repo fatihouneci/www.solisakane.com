@@ -14,6 +14,9 @@ import ErrorHandler from "./helpers/ErrorHandler.js";
 import authRoutes from "./routes/auth.routes.js";
 import userRoutes from "./routes/user.routes.js";
 import fileRoutes from "./routes/file.routes.js";
+import chatRoutes from "./routes/chat.routes.js";
+import messageRoutes from "./routes/message.routes.js";
+import callRoutes from "./routes/call.routes.js";
 
 const app = express();
 
@@ -34,6 +37,9 @@ app.use("/", express.static(path.join(__dirname, "uploads")));
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/files", fileRoutes);
+app.use("/api/chats", chatRoutes);
+app.use("/api/messages", messageRoutes);
+app.use("/api/calls", callRoutes);
 
 // Catch unauthorised errors
 app.use(ErrorHandler);
