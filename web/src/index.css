@@ -1,3 +1,9 @@
+/**
+ * @file index.css
+ * @description
+ * EN: This file contains global CSS styles, Tailwind CSS directives, and theme definitions for the application.
+ * FR: Ce fichier contient les styles CSS globaux, les directives de Tailwind CSS et les définitions de thème pour l'application.
+ */
 @import "tailwindcss";
 @import "tw-animate-css";
 
