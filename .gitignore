@@ -24,3 +24,19 @@
 */.idea/
 */*.sublime-workspace
 */*.sublime-project
+
+# Generated reports (auto-generated, should not be versioned)
+.github/*Report.md
+.github/securityReport.md
+.github/databaseReport.md
+.github/socketReport.md
+.github/webrtcReport.md
+.github/e2eTestReport.md
+.github/stabilityReport.md
+
+# Keep only documentation files
+!.github/README.md
+!.github/REPORTS_INDEX.md
+!.github/workflows/
+!.github/ISSUE_TEMPLATE/
+!.github/pull_request_template.md
