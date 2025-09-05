@@ -1,3 +1,9 @@
+/**
+ * @file auth.controller.js
+ * @description
+ * EN: This file contains the controller functions for authentication-related operations.
+ * FR: Ce fichier contient les fonctions du contrôleur pour les opérations liées à l'authentification.
+ */
 import User from "../models/user.model.js";
 import jwt from "jsonwebtoken";
 import { expressjwt } from "express-jwt";
@@ -8,6 +14,13 @@ import config from "../config/config.js";
 import CatchAsyncError from "../helpers/CatchAsyncError.js";
 import bcrypt from "bcryptjs";
 
+/**
+ * EN: Handles user registration.
+ * FR: Gère l'enregistrement des utilisateurs.
+ * @param {object} req - The request object. / L'objet de la requête.
+ * @param {object} res - The response object. / L'objet de la réponse.
+ * @param {function} next - The next middleware function. / La prochaine fonction middleware.
+ */
 const register = CatchAsyncError(async (req, res, next) => {
   try {
     const isEmailExist = await User.findOne({ email: req.body.email });
@@ -34,6 +47,13 @@ const register = CatchAsyncError(async (req, res, next) => {
   }
 });
 
+/**
+ * EN: Handles account activation using an activation token and code.
+ * FR: Gère l'activation du compte à l'aide d'un jeton et d'un code d'activation.
+ * @param {object} req - The request object. / L'objet de la requête.
+ * @param {object} res - The response object. / L'objet de la réponse.
+ * @param {function} next - The next middleware function. / La prochaine fonction middleware.
+ */
 const activation = CatchAsyncError(async (req, res, next) => {
 
   try {
@@ -75,6 +95,13 @@ const activation = CatchAsyncError(async (req, res, next) => {
   }
 });
 
+/**
+ * EN: Sets a new password for an authenticated user.
+ * FR: Définit un nouveau mot de passe pour un utilisateur authentifié.
+ * @param {object} req - The request object. / L'objet de la requête.
+ * @param {object} res - The response object. / L'objet de la réponse.
+ * @param {function} next - The next middleware function. / La prochaine fonction middleware.
+ */
 const newPassword = CatchAsyncError(async (req, res, next) => {
   try {
     const isEmailExist = await User.findOne({ email: req.body.email });
@@ -105,6 +132,13 @@ const newPassword = CatchAsyncError(async (req, res, next) => {
   }
 });
 
+/**
+ * EN: Updates the profile of an authenticated user.
+ * FR: Met à jour le profil d'un utilisateur authentifié.
+ * @param {object} req - The request object. / L'objet de la requête.
+ * @param {object} res - The response object. / L'objet de la réponse.
+ * @param {function} next - The next middleware function. / La prochaine fonction middleware.
+ */
 const updateProfile = CatchAsyncError(async (req, res, next) => {
   try {
     req.body.fullName = `${req.body.firstName} ${req.body.lastName}`
@@ -120,6 +154,13 @@ const updateProfile = CatchAsyncError(async (req, res, next) => {
   }
 });
 
+/**
+ * EN: Handles user sign-in.
+ * FR: Gère la connexion de l'utilisateur.
+ * @param {object} req - The request object. / L'objet de la requête.
+ * @param {object} res - The response object. / L'objet de la réponse.
+ * @param {function} next - The next middleware function. / La prochaine fonction middleware.
+ */
 const signin = CatchAsyncError(async (req, res, next) => {
   try {
     let user = await User.findOne({
@@ -156,6 +197,13 @@ const signin = CatchAsyncError(async (req, res, next) => {
   }
 });
 
+/**
+ * EN: Handles user sign-out.
+ * FR: Gère la déconnexion de l'utilisateur.
+ * @param {object} req - The request object. / L'objet de la requête.
+ * @param {object} res - The response object. / L'objet de la réponse.
+ * @param {function} next - The next middleware function. / La prochaine fonction middleware.
+ */
 const signout = CatchAsyncError(async (req, res, next) => {
   res.clearCookie("t");
   return res.status("200").json({
@@ -164,6 +212,13 @@ const signout = CatchAsyncError(async (req, res, next) => {
   });
 });
 
+/**
+ * EN: Handles account removal (marks user as deleted).
+ * FR: Gère la suppression du compte (marque l'utilisateur comme supprimé).
+ * @param {object} req - The request object. / L'objet de la requête.
+ * @param {object} res - The response object. / L'objet de la réponse.
+ * @param {function} next - The next middleware function. / La prochaine fonction middleware.
+ */
 const removeAccount = CatchAsyncError(async (req, res, next) => {
   const userId = req.auth._id;
 
@@ -176,6 +231,13 @@ const removeAccount = CatchAsyncError(async (req, res, next) => {
   });
 });
 
+/**
+ * EN: Initiates the forgot password process by sending an OTP to the user's email.
+ * FR: Lance le processus de mot de passe oublié en envoyant un OTP à l'adresse e-mail de l'utilisateur.
+ * @param {object} req - The request object. / L'objet de la requête.
+ * @param {object} res - The response object. / L'objet de la réponse.
+ * @param {function} next - The next middleware function. / La prochaine fonction middleware.
+ */
 const forgotPassword = CatchAsyncError(async (req, res, next) => {
   try {
     const user = await User.findOne({ email: req.body.email });
@@ -184,8 +246,8 @@ const forgotPassword = CatchAsyncError(async (req, res, next) => {
     }
 
     user.resetToken = {
-      token: Math.floor(1000 + Math.random() * 9000).toString(),
-      expires: new Date(Date.now() + 24 * 60 * 60 * 1000),
+      token: Math.floor(1000 + Math.random() * 9000).toString(), // EN: Generates a 4-digit OTP / FR: Génère un OTP à 4 chiffres
+      expires: new Date(Date.now() + 24 * 60 * 60 * 1000), // EN: Expires in 24 hours / FR: Expire dans 24 heures
     };
     await user.save();
 
@@ -206,6 +268,13 @@ const forgotPassword = CatchAsyncError(async (req, res, next) => {
   }
 });
 
+/**
+ * EN: Verifies the account using the reset token (OTP).
+ * FR: Vérifie le compte à l'aide du jeton de réinitialisation (OTP).
+ * @param {object} req - The request object. / L'objet de la requête.
+ * @param {object} res - The response object. / L'objet de la réponse.
+ * @param {function} next - The next middleware function. / La prochaine fonction middleware.
+ */
 const verifyAccount = CatchAsyncError(async (req, res, next) => {
   try {
     const user = await User.findOne({
@@ -217,7 +286,7 @@ const verifyAccount = CatchAsyncError(async (req, res, next) => {
       return next(new Errors("aucun utilisateur trouvé", 400));
     }
 
-    user.resetToken = undefined;
+    user.resetToken = undefined; // EN: Clear the reset token after successful verification / FR: Effacer le jeton de réinitialisation après une vérification réussie
     await user.save();
     res.status(200).send({
       success: true,
@@ -229,6 +298,13 @@ const verifyAccount = CatchAsyncError(async (req, res, next) => {
   }
 });
 
+/**
+ * EN: Resets the user's password.
+ * FR: Réinitialise le mot de passe de l'utilisateur.
+ * @param {object} req - The request object. / L'objet de la requête.
+ * @param {object} res - The response object. / L'objet de la réponse.
+ * @param {function} next - The next middleware function. / La prochaine fonction middleware.
+ */
 const resetPassword = CatchAsyncError(async (req, res, next) => {
   try {
     const user = await User.findById(req.body.userId);
@@ -237,7 +313,7 @@ const resetPassword = CatchAsyncError(async (req, res, next) => {
       return next(new Errors("aucun utilisateur trouvé", 400));
     }
 
-    // update password
+    // EN: Update password / FR: Mettre à jour le mot de passe
     user.password = await bcrypt.hash(req.body.password, 8);
     await user.save();
     res.status(200).send({
@@ -250,21 +326,39 @@ const resetPassword = CatchAsyncError(async (req, res, next) => {
   }
 });
 
+/**
+ * EN: Middleware to require user sign-in.
+ * FR: Middleware pour exiger la connexion de l'utilisateur.
+ */
 const requireSignin = expressjwt({
   secret: config.jwtSecret,
   userProperty: "auth",
   algorithms: ["HS256"],
 });
 
+/**
+ * EN: Middleware to check user authorization.
+ * FR: Middleware pour vérifier l'autorisation de l'utilisateur.
+ * @param {object} req - The request object. / L'objet de la requête.
+ * @param {object} res - The response object. / L'objet de la réponse.
+ * @param {function} next - The next middleware function. / La prochaine fonction middleware.
+ */
 const hasAuthorization = CatchAsyncError(async (req, res, next) => {
-  // const authorized = req.profile && req.auth && req.profile._id == req.auth._id;
-  const authorized = true;
+  // const authorized = req.profile && req.auth && req.profile._id == req.auth._id; // EN: Original authorization logic / FR: Logique d'autorisation originale
+  const authorized = true; // EN: Currently set to true for simplicity / FR: Actuellement défini sur true pour simplifier
   if (!authorized) {
     return next(new Errors("User is not authorized", 403));
   }
   next();
 });
 
+/**
+ * EN: Gets the profile of the authenticated user.
+ * FR: Récupère le profil de l'utilisateur authentifié.
+ * @param {object} req - The request object. / L'objet de la requête.
+ * @param {object} res - The response object. / L'objet de la réponse.
+ * @param {function} next - The next middleware function. / La prochaine fonction middleware.
+ */
 const profile = CatchAsyncError(async (req, res, next) => {
   try {
     const user = await User.findById(req.auth._id);
@@ -278,6 +372,13 @@ const profile = CatchAsyncError(async (req, res, next) => {
   }
 });
 
+/**
+ * EN: Updates the user's token.
+ * FR: Met à jour le jeton de l'utilisateur.
+ * @param {object} req - The request object. / L'objet de la requête.
+ * @param {object} res - The response object. / L'objet de la réponse.
+ * @param {function} next - The next middleware function. / La prochaine fonction middleware.
+ */
 const updateToken = CatchAsyncError(async (req, res, next) => {
   try {
     try {

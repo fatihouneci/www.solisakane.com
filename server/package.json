@@ -7,7 +7,14 @@
   "scripts": {
     "dev": "nodemon --experimental-specifier-resolution=node index.js",
     "server": "nodemon --experimental-specifier-resolution=node index.js",
-    "start": "node --experimental-specifier-resolution=node index.js"
+    "start": "node --experimental-specifier-resolution=node index.js",
+    "security:verify": "node --experimental-specifier-resolution=node scripts/security-verification.js",
+    "database:verify": "node --experimental-specifier-resolution=node scripts/database-verification.js",
+    "socketio:verify": "node --experimental-specifier-resolution=node scripts/socketio-verification.js",
+    "webrtc:verify": "node --experimental-specifier-resolution=node scripts/webrtc-verification.js",
+    "e2e:test": "node --experimental-specifier-resolution=node scripts/e2e-tests.js",
+    "stability:verify": "node --experimental-specifier-resolution=node scripts/stability-verification.js",
+    "verify:all": "npm run security:verify && npm run database:verify && npm run socketio:verify && npm run webrtc:verify && npm run e2e:test && npm run stability:verify"
   },
   "dependencies": {
     "async-lock": "^1.4.1",
