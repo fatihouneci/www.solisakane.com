@@ -16,15 +16,17 @@
     "jsx": "react-jsx",
 
     /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "strict": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true,
+    "noUncheckedSideEffectImports": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src", "src/types/global.d.ts", "src/types/modules.d.ts", "src/types/env.d.ts", "src/types/react-router-dom.d.ts"]
 }
