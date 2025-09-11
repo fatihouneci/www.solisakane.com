@@ -83,6 +83,21 @@ android {
         vectorDrawables.useSupportLibrary = true
         versionCode 2
         versionName "0.0.3"
+        
+        // Configuration pour la compatibilité 16KB (Android 15+)
+        // Configuration for 16KB compatibility (Android 15+)
+        ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+        }
+        
+        // Options de compilation pour l'alignement 16KB
+        // Compilation options for 16KB alignment
+        externalNativeBuild {
+            cmake {
+                cppFlags "-D_PAGE_SIZE=16384"
+                arguments "-DANDROID_PAGE_SIZE_AGNOSTIC=ON"
+            }
+        }
     }
     signingConfigs {
         debug {
@@ -108,6 +123,30 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+    
+    // Configuration avancée pour l'alignement 16KB des bibliothèques natives
+    // Advanced configuration for 16KB alignment of native libraries
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging = false
+        }
+        // Alignement 16KB pour la compatibilité Android 15+ - Toutes les bibliothèques
+        // 16KB alignment for Android 15+ compatibility - All libraries
+        jniLibs {
+            pickFirsts += [
+                '**/libc++_shared.so', '**/libcrypto.so', '**/libevent*.so',
+                '**/libfabricjni.so', '**/libfb.so', '**/libfbjni.so',
+                '**/libflipper.so', '**/libfolly_runtime.so', '**/libglog*.so',
+                '**/libhermes*.so', '**/libimagepipeline.so', '**/libjingle_peerconnection_so.so',
+                '**/libjsc*.so', '**/libjsi*.so', '**/libjsinspector.so',
+                '**/liblogger.so', '**/libmapbufferjni.so', '**/libnative-*.so',
+                '**/libreact*.so', '**/libreactnative*.so', '**/librninstance.so',
+                '**/librrc_*.so', '**/libruntimeexecutor.so', '**/libssl.so',
+                '**/libturbomodulejsijni.so', '**/libuimanagerjni.so', '**/libyoga.so',
+                '**/librnscreens.so', '**/libucrop.so'
+            ]
+        }
     }
 }
 
